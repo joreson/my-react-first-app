@@ -3,8 +3,10 @@
 
 function Button(){
 
-   
+    const handleClick =(e) =>e.target.textContent=("Ouch!!")
+    
+  
         
-    return(<button className="button" >Click Me</button>);
+    return(<button onDoubleClick={(e)=>handleClick(e)} className="button" >Click Me </button>);
 }
 export default Button
