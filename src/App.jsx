@@ -9,18 +9,15 @@ import List from "./List.jsx";
 import ProfilePicture from "./profilePicture.jsx";
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx"
+import OnChange from "./onChange.jsx";
+import ColorPicker from './colorPicker.jsx'
+
+import React, {useState} from 'react';
+
 function App() {
-    
-  
-                    
-  return(
-    <>
-     
-      <Counter/>
-     
-      
-    </>
-  );
+  return(<>
+   <ColorPicker/>
+  </>)
 }
 
 export default App
