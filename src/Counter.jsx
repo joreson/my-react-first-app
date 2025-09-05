@@ -5,11 +5,19 @@ function Counter(){
     const[count, setCount]= useState(0);
 
     const increment =()=>{
-       setCount(count + 1) 
+       setCount(c => c + 1) // updater function by using a arrow function
+       
+       
     }
 
      const decrement =()=>{
-       setCount(count - 1) 
+      if(count != 0){
+        setCount(c => c - 1) 
+      }
+      else{
+        console.log("number is zero")
+      }
+       
     }
 
      const reset =()=>{

@@ -11,12 +11,15 @@ import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx"
 import OnChange from "./onChange.jsx";
 import ColorPicker from './colorPicker.jsx'
+import UpdateObject from "./UpdateObject.jsx";
+import UpdateArray from "./UpdateArray.jsx";
+import UpdateArrayObject from "./UpdateArrayObject.jsx";
 
-import React, {useState} from 'react';
+
 
 function App() {
   return(<>
-   <ColorPicker/>
+   <UpdateArrayObject/>
   </>)
 }
 
