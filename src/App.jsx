@@ -14,12 +14,12 @@ import ColorPicker from './colorPicker.jsx'
 import UpdateObject from "./UpdateObject.jsx";
 import UpdateArray from "./UpdateArray.jsx";
 import UpdateArrayObject from "./UpdateArrayObject.jsx";
-
-
+import UseEffect from "./UseEffect.jsx";
+import AreaCalculator from "./AreaCalculator.jsx"
 
 function App() {
   return(<>
-   <UpdateArrayObject/>
+   < AreaCalculator />
   </>)
 }
 
