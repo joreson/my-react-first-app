@@ -16,10 +16,11 @@ import UpdateArray from "./UpdateArray.jsx";
 import UpdateArrayObject from "./UpdateArrayObject.jsx";
 import UseEffect from "./UseEffect.jsx";
 import AreaCalculator from "./AreaCalculator.jsx"
+import UseContextA from "./UseContextA.jsx";
 
 function App() {
   return(<>
-   < AreaCalculator />
+   < UseContextA/>
   </>)
 }
 
